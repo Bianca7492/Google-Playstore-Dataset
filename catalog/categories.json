@@ -1,0 +1,338 @@
+[
+ {
+  "slug": "action",
+  "name": "Action",
+  "app_type": "game",
+  "count": 968,
+  "total_available": 6507
+ },
+ {
+  "slug": "adventure",
+  "name": "Adventure",
+  "app_type": "game",
+  "count": 874,
+  "total_available": 4561
+ },
+ {
+  "slug": "arcade",
+  "name": "Arcade",
+  "app_type": "game",
+  "count": 979,
+  "total_available": 5331
+ },
+ {
+  "slug": "art-&-design",
+  "name": "Art & Design",
+  "app_type": "app",
+  "count": 633,
+  "total_available": 1813
+ },
+ {
+  "slug": "auto-&-vehicles",
+  "name": "Auto & Vehicles",
+  "app_type": "app",
+  "count": 756,
+  "total_available": 1543
+ },
+ {
+  "slug": "beauty",
+  "name": "Beauty",
+  "app_type": "app",
+  "count": 235,
+  "total_available": 801
+ },
+ {
+  "slug": "board",
+  "name": "Board",
+  "app_type": "game",
+  "count": 1162,
+  "total_available": 2184
+ },
+ {
+  "slug": "books-&-reference",
+  "name": "Books & Reference",
+  "app_type": "app",
+  "count": 1222,
+  "total_available": 12684
+ },
+ {
+  "slug": "business",
+  "name": "Business",
+  "app_type": "app",
+  "count": 1304,
+  "total_available": 4756
+ },
+ {
+  "slug": "card",
+  "name": "Card",
+  "app_type": "game",
+  "count": 1292,
+  "total_available": 2431
+ },
+ {
+  "slug": "casino",
+  "name": "Casino",
+  "app_type": "game",
+  "count": 637,
+  "total_available": 1505
+ },
+ {
+  "slug": "casual",
+  "name": "Casual",
+  "app_type": "game",
+  "count": 1165,
+  "total_available": 8479
+ },
+ {
+  "slug": "comics",
+  "name": "Comics",
+  "app_type": "app",
+  "count": 192,
+  "total_available": 757
+ },
+ {
+  "slug": "communication",
+  "name": "Communication",
+  "app_type": "app",
+  "count": 1045,
+  "total_available": 5102
+ },
+ {
+  "slug": "dating",
+  "name": "Dating",
+  "app_type": "app",
+  "count": 399,
+  "total_available": 1073
+ },
+ {
+  "slug": "education",
+  "name": "Education",
+  "app_type": "app",
+  "count": 1336,
+  "total_available": 18829
+ },
+ {
+  "slug": "educational",
+  "name": "Educational",
+  "app_type": "game",
+  "count": 1298,
+  "total_available": 3495
+ },
+ {
+  "slug": "entertainment",
+  "name": "Entertainment",
+  "app_type": "app",
+  "count": 1069,
+  "total_available": 20201
+ },
+ {
+  "slug": "events",
+  "name": "Events",
+  "app_type": "app",
+  "count": 102,
+  "total_available": 225
+ },
+ {
+  "slug": "finance",
+  "name": "Finance",
+  "app_type": "app",
+  "count": 1448,
+  "total_available": 8599
+ },
+ {
+  "slug": "food-&-drink",
+  "name": "Food & Drink",
+  "app_type": "app",
+  "count": 1159,
+  "total_available": 2424
+ },
+ {
+  "slug": "health-&-fitness",
+  "name": "Health & Fitness",
+  "app_type": "app",
+  "count": 1220,
+  "total_available": 5824
+ },
+ {
+  "slug": "house-&-home",
+  "name": "House & Home",
+  "app_type": "app",
+  "count": 373,
+  "total_available": 759
+ },
+ {
+  "slug": "libraries-&-demo",
+  "name": "Libraries & Demo",
+  "app_type": "app",
+  "count": 152,
+  "total_available": 489
+ },
+ {
+  "slug": "lifestyle",
+  "name": "Lifestyle",
+  "app_type": "app",
+  "count": 1162,
+  "total_available": 11067
+ },
+ {
+  "slug": "maps-&-navigation",
+  "name": "Maps & Navigation",
+  "app_type": "app",
+  "count": 1285,
+  "total_available": 2965
+ },
+ {
+  "slug": "medical",
+  "name": "Medical",
+  "app_type": "app",
+  "count": 1143,
+  "total_available": 2139
+ },
+ {
+  "slug": "music",
+  "name": "Music",
+  "app_type": "game",
+  "count": 270,
+  "total_available": 886
+ },
+ {
+  "slug": "music-&-audio",
+  "name": "Music & Audio",
+  "app_type": "app",
+  "count": 1165,
+  "total_available": 12089
+ },
+ {
+  "slug": "news-&-magazines",
+  "name": "News & Magazines",
+  "app_type": "app",
+  "count": 1307,
+  "total_available": 3929
+ },
+ {
+  "slug": "parenting",
+  "name": "Parenting",
+  "app_type": "app",
+  "count": 354,
+  "total_available": 612
+ },
+ {
+  "slug": "personalization",
+  "name": "Personalization",
+  "app_type": "app",
+  "count": 958,
+  "total_available": 13823
+ },
+ {
+  "slug": "photography",
+  "name": "Photography",
+  "app_type": "app",
+  "count": 1084,
+  "total_available": 8187
+ },
+ {
+  "slug": "productivity",
+  "name": "Productivity",
+  "app_type": "app",
+  "count": 1256,
+  "total_available": 6772
+ },
+ {
+  "slug": "puzzle",
+  "name": "Puzzle",
+  "app_type": "game",
+  "count": 1325,
+  "total_available": 7619
+ },
+ {
+  "slug": "racing",
+  "name": "Racing",
+  "app_type": "game",
+  "count": 810,
+  "total_available": 3398
+ },
+ {
+  "slug": "role-playing",
+  "name": "Role Playing",
+  "app_type": "game",
+  "count": 1018,
+  "total_available": 4048
+ },
+ {
+  "slug": "shopping",
+  "name": "Shopping",
+  "app_type": "app",
+  "count": 1414,
+  "total_available": 4978
+ },
+ {
+  "slug": "simulation",
+  "name": "Simulation",
+  "app_type": "game",
+  "count": 1067,
+  "total_available": 9816
+ },
+ {
+  "slug": "social",
+  "name": "Social",
+  "app_type": "app",
+  "count": 841,
+  "total_available": 4830
+ },
+ {
+  "slug": "sports",
+  "name": "Sports",
+  "app_type": "game",
+  "count": 1108,
+  "total_available": 5791
+ },
+ {
+  "slug": "strategy",
+  "name": "Strategy",
+  "app_type": "game",
+  "count": 947,
+  "total_available": 2204
+ },
+ {
+  "slug": "tools",
+  "name": "Tools",
+  "app_type": "app",
+  "count": 1169,
+  "total_available": 20936
+ },
+ {
+  "slug": "travel-&-local",
+  "name": "Travel & Local",
+  "app_type": "app",
+  "count": 1231,
+  "total_available": 4694
+ },
+ {
+  "slug": "trivia",
+  "name": "Trivia",
+  "app_type": "game",
+  "count": 629,
+  "total_available": 1664
+ },
+ {
+  "slug": "video-players-&-editors",
+  "name": "Video Players & Editors",
+  "app_type": "app",
+  "count": 792,
+  "total_available": 3877
+ },
+ {
+  "slug": "weather",
+  "name": "Weather",
+  "app_type": "app",
+  "count": 943,
+  "total_available": 2082
+ },
+ {
+  "slug": "word",
+  "name": "Word",
+  "app_type": "game",
+  "count": 984,
+  "total_available": 1795
+ }
+]

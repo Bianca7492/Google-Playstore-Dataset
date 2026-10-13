@@ -1,0 +1,59 @@
+name: Refresh Play catalog
+
+# Keeps catalog/ honest and icon-complete over time instead of in one big day:
+# each run resolves a bounded slice of icons and prunes apps Play has since delisted.
+on:
+  schedule:
+    # Every 6 hours. ~4,000 lookups a run clears the ~84,000-row catalogue in a
+    # couple of days, then keeps it fresh.
+    - cron: "17 */6 * * *"
+  workflow_dispatch:
+    inputs:
+      icon_budget:
+        description: "Max Play lookups this run"
+        required: false
+        default: "4000"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-play-catalog
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install scraper
+        run: pip install --quiet google-play-scraper
+
+      - name: Resolve icons and prune delisted apps
+        run: |
+          python tools/refresh_play_catalog.py \
+            --catalog-dir catalog \
+            --icon-budget "${{ github.event.inputs.icon_budget || 4000 }}" \
+            --workers 24
+
+      - name: Commit and push if the catalogue changed
+        run: |
+          git config user.name  "vyxel-catalog-bot"
+          git config user.email "catalog-bot@users.noreply.github.com"
+          git add catalog
+          if git diff --cached --quiet; then
+            echo "No catalogue changes this run."
+            exit 0
+          fi
+          git commit -m "chore(catalog): refresh icons and prune delisted apps
+
+Bounded automatic run of tools/refresh_play_catalog.py: resolved icons for the
+next slice of apps and dropped rows Play now returns NotFoundError for.
+
+[skip ci]"
+          git push
